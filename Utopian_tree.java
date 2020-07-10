@@ -1,3 +1,6 @@
+
+
+
 import java.util.Scanner;
 
 public class Utopian_tree {
@@ -5,9 +8,9 @@ public class Utopian_tree {
         Scanner scanner = new Scanner(System.in);
         int n=1;
 
-        int nOfTestCases = scanner.nextInt();
-        int periodInputs[] = new int[nOfTestCases];
-        int allPossiblePeriodOutputs[] = new int[61];
+         int nOfTestCases = scanner.nextInt();
+         int periodInputs[] = new int[nOfTestCases];
+         int allPossiblePeriodOutputs[] = new int[61];
 
         for (int i=0; i<nOfTestCases; i++) {
             periodInputs[i] = scanner.nextInt();
